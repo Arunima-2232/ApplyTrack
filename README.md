@@ -53,14 +53,14 @@ Develop a lightweight, web-based Application Tracking System (ATS) that provides
 3. User data must be handled securely and confidentially
 4. The system must be developed within the given timeframe
 
-## MoSCoW Prioritization
+### MoSCoW Prioritization
 
 Must Have: Core authentication, application tracking, job posting  
 Should Have: Notifications, recommendations, profile management  
 Could Have: Analytics, filters, UI customization  
 Won’t Have: AI analysis, video interviews, mobile app
 
-## Technology Stack
+### Technology Stack
 
 1. Frontend - Streamlit is used to develop the web-based user interface for ApplyTrack. It is responsible for displaying login pages, dashboards, job listings, and application status.
 2. Backend - Flask is used as the backend framework to handle API requests, authentication, and business logic. Python is used as the primary programming language.
