@@ -52,3 +52,10 @@ Develop a lightweight, web-based Application Tracking System (ATS) that provides
 2. The system must be scalable enough to support multiple users
 3. User data must be handled securely and confidentially
 4. The system must be developed within the given timeframe
+
+## MoSCoW Prioritization
+
+Must Have: Core authentication, application tracking, job posting  
+Should Have: Notifications, recommendations, profile management  
+Could Have: Analytics, filters, UI customization  
+Won’t Have: AI analysis, video interviews, mobile app
