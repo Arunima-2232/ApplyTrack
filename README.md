@@ -41,7 +41,7 @@ Develop a lightweight, web-based Application Tracking System (ATS) that provides
 
 ### Assumptions:
 
-1 .Users have access to a web browser and internet connectivity
+1. Users have access to a web browser and internet connectivity
 2. Applicants are willing to maintain their application records
 3. Recruiters will update application statuses when required
 4. The notification system is available and operational
