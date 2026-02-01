@@ -59,3 +59,41 @@ Must Have: Core authentication, application tracking, job posting
 Should Have: Notifications, recommendations, profile management  
 Could Have: Analytics, filters, UI customization  
 Won’t Have: AI analysis, video interviews, mobile app
+
+## Technology Stack
+
+1. Frontend - Streamlit is used to develop the web-based user interface for ApplyTrack. It is responsible for displaying login pages, dashboards, job listings, and application status.
+2. Backend - Flask is used as the backend framework to handle API requests, authentication, and business logic. Python is used as the primary programming language.
+3. Database - Supabase is used as the cloud-based PostgreSQL database for storing user data, job details, applications, and system records.
+4. Development and Deployment Tools - Docker is used for containerization. GitHub is used for version control and project management. Figma is used for wireframe design. Draw.io is used for architecture diagrams.
+5. Development Environment - VS Code is used as the code editor. Command Prompt or PowerShell is used for executing development commands. Docker Desktop is used for managing containers.
+
+### System Workflow
+
+1. Users such as applicants, recruiters, and administrators access the system through a web browser.
+2. The frontend interface is loaded using the Streamlit framework.
+3. User requests such as login, registration, job application, and status tracking are sent to the Flask backend using HTTP APIs.
+4. The backend server validates the requests and executes business logic.
+5. The backend communicates with the Supabase database to store and retrieve information.
+6. Processed data is sent back from the backend to the frontend.
+7. Notifications are generated for important updates such as application status changes.
+8. The final output is displayed to the user in real time.
+
+### Branching Strategy
+
+1. The project follows the GitHub Flow branching strategy.
+2. The main branch contains stable and production-ready code.
+3. New features are developed in separate feature branches created from the main branch.
+4. Feature branches follow the naming format:
+    feature-featureName
+5. Developers create a feature branch, implement changes, test the feature, and then merge it into the main branch.
+6. This strategy helps maintain code stability and organized development.
+
+### Docker Setup for Local Development
+
+1. Docker Desktop must be installed on the system before starting.
+2. The project contains the following required files: Dockerfile, requirements.txt, and app.py.
+3. To build the Docker image, open Command Prompt or PowerShell in the project directory and run: docker build -t applytrack .
+4. To run the Docker container, execute: docker run -p 8501:8501 applytrack
+5. After running the container, open a web browser and visit: http://localhost:8501
+6. Docker ensures a consistent development environment and reduces dependency conflicts.
