@@ -97,3 +97,7 @@ Won’t Have: AI analysis, video interviews, mobile app
 4. To run the Docker container, execute: docker run -p 8501:8501 applytrack
 5. After running the container, open a web browser and visit: http://localhost:8501
 6. Docker ensures a consistent development environment and reduces dependency conflicts.
+
+### Design Choices
+
+<p>ApplyTrack is designed using a layered architecture to clearly separate user interaction, business logic, and data handling, which improves maintainability and scalability. Core functionalities such as job management, application tracking, and notifications are modularized to ensure high cohesion and low coupling between components. Distinct user roles and an independent application entity were introduced to support real-world recruitment workflows and future feature expansion.</p>
